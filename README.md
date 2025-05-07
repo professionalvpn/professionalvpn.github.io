@@ -1,4 +1,4 @@
-# 专业VPN机场 | 5月2日19.8M/S|免费Clash/V2ray/SSR/Shadowrocket订阅机场  更新时间 2025-05-02 09:33:33
+# 专业VPN机场 | 5月7日21.7M/S|免费Shadowrocket/Clash/V2ray/SSR订阅机场  更新时间 2025-05-07 09:08:08
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://professionalvpn.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://professionalvpn.github.io/uploads/2025/05/0-20250502.yaml
-- https://professionalvpn.github.io/uploads/2025/05/1-20250502.yaml
-- https://professionalvpn.github.io/uploads/2025/05/2-20250502.yaml
-- https://professionalvpn.github.io/uploads/2025/05/3-20250502.yaml
-- https://professionalvpn.github.io/uploads/2025/05/4-20250502.yaml
+- https://professionalvpn.github.io/uploads/2025/05/0-20250507.yaml
+- https://professionalvpn.github.io/uploads/2025/05/1-20250507.yaml
+- https://professionalvpn.github.io/uploads/2025/05/2-20250507.yaml
+- https://professionalvpn.github.io/uploads/2025/05/3-20250507.yaml
+- https://professionalvpn.github.io/uploads/2025/05/4-20250507.yaml
 
 ### V2ray订阅链接
 
-- https://professionalvpn.github.io/uploads/2025/05/0-20250502.txt
-- https://professionalvpn.github.io/uploads/2025/05/1-20250502.txt
-- https://professionalvpn.github.io/uploads/2025/05/2-20250502.txt
-- https://professionalvpn.github.io/uploads/2025/05/3-20250502.txt
-- https://professionalvpn.github.io/uploads/2025/05/4-20250502.txt
+- https://professionalvpn.github.io/uploads/2025/05/0-20250507.txt
+- https://professionalvpn.github.io/uploads/2025/05/1-20250507.txt
+- https://professionalvpn.github.io/uploads/2025/05/2-20250507.txt
+- https://professionalvpn.github.io/uploads/2025/05/3-20250507.txt
+- https://professionalvpn.github.io/uploads/2025/05/4-20250507.txt
 
 ### Sing-box订阅链接
 
-- https://professionalvpn.github.io/uploads/2025/05/20250502.json
+- https://professionalvpn.github.io/uploads/2025/05/20250507.json
 
 ## 更多clash节点订阅 ：
 
