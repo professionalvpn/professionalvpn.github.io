@@ -1,0 +1,412 @@
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://professionalvpn.github.io/news/article-115420.htm" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SSR快还是V2Ray？全面解析代理协议速度与性能的深度对比</title>
+        <meta name="description" content="在当今互联网环境中，网络自由访问与信息隐私保护成为众多用户的共同诉求。特别是在面对地域限制和网络封锁时，选择一款合适的代理工具至关重要。ShadowsocksR（简称SSR）和V2Ray作为当下最流行" />
+        <link rel="icon" href="/assets/website/img/clashshare/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="专业VPN机场节点订阅官网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://professionalvpn.github.io/news/article-115420.htm" />
+    <meta property="og:site_name" content="专业VPN机场节点订阅官网" />
+    <meta property="og:title" content="SSR快还是V2Ray？全面解析代理协议速度与性能的深度对比" />
+    <meta property="og:image" content="https://professionalvpn.github.io/uploads/20240525/ce2d96f928639f870d8940c9068b19a3.webp" />
+        <meta property="og:release_date" content="2025-05-16T08:45:16" />
+    <meta property="og:updated_time" content="2025-05-16T08:45:16" />
+        <meta property="og:description" content="在当今互联网环境中，网络自由访问与信息隐私保护成为众多用户的共同诉求。特别是在面对地域限制和网络封锁时，选择一款合适的代理工具至关重要。ShadowsocksR（简称SSR）和V2Ray作为当下最流行" />
+        
+    <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashshare/style-starter.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="SSR快还是V2Ray？全面解析代理协议速度与性能的深度对比">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B89M7HMLTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B89M7HMLTG');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!--/header-w3l-->
+    <div class="header-w3l">
+        <!-- header -->
+        <header id="site-header" class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg stroke">
+                                        <a class="navbar-brand" href="/">
+                        专业VPN机场                    </a>
+                                        <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                    <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-lg-auto">
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/">首页</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/news/">新闻资讯</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/client.htm">客户端</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                    <!-- toggle switch for light and dark theme -->
+                    <div class="mobile-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- //toggle switch for light and dark theme -->
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+    </div>
+    <!--//header-w3l-->
+    <!--/w3l-inner-page-breadcrumb-->
+    <section class="w3l-inner-page-breadcrumb">
+        <div class="breadcrumb-bg py-5">
+            <div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
+                <h2 class="title pt-5">SSR快还是V2Ray？全面解析代理协议速度与性能的深度对比</h2>
+                <ul class="breadcrumbs-custom-path mt-3 text-center">
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/news/">
+                        <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 新闻资讯</a>
+                    </li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 正文</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /w3l-content-2-->
+    <div class="w3l-content-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                                    <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    
+<p data-start="34" data-end="267" class="">在当今互联网环境中，网络自由访问与信息隐私保护成为众多用户的共同诉求。特别是在面对地域限制和网络封锁时，选择一款合适的代理工具至关重要。ShadowsocksR（简称SSR）和V2Ray作为当下最流行的两大代理协议，因其各自的性能特点和使用场景而广受关注。尤其是在“SSR快还是V2Ray”的话题上，用户和技术爱好者间的讨论持续火热。本文将从协议定义、性能表现、稳定性、安全性、使用体验等多个维度出发，对这两款代理工具进行详尽剖析，助你理性选择最适合自己的网络利器。</p>
+<hr data-start="269" data-end="272" class="" style="">
+<h2 data-start="274" data-end="300" class="">一、SSR与V2Ray简介：技术背景及核心定位</h2>
+<h3 data-start="302" data-end="316" class="">1. 什么是SSR？</h3>
+<p data-start="318" data-end="498" class="">ShadowsocksR（SSR）是基于Shadowsocks协议改进而来的一款代理工具。它继承了Shadowsocks简洁高效的特性，并引入了多项技术优化，比如流量混淆、多路复用、请求伪装等，旨在提升抗封锁能力和使用灵活性。SSR相较于原版Shadowsocks，在应对复杂网络封锁环境时表现更为出色，且安装配置流程相对简洁，适合广大初级用户及中轻度使用者。</p>
+<h4 data-start="500" data-end="512" class="">SSR的优势：</h4>
+<ul data-start="513" data-end="621">
+<li data-start="513" data-end="542" class="" style="">
+<p data-start="515" data-end="542" class=""><strong data-start="515" data-end="523">配置简单</strong>：用户可以快速上手，适合代理工具新手。</p>
+</li>
+<li data-start="543" data-end="583" class="" style="">
+<p data-start="545" data-end="583" class=""><strong data-start="545" data-end="555">流量混淆技术</strong>：通过伪装网络流量，使得封锁系统难以精准识别代理数据包。</p>
+</li>
+<li data-start="584" data-end="621" class="" style="">
+<p data-start="586" data-end="621" class=""><strong data-start="586" data-end="595">低延迟体验</strong>：在网络环境良好时，SSR能带来较为流畅的访问速度。</p>
+</li>
+</ul>
+<h4 data-start="623" data-end="635" class="">SSR的劣势：</h4>
+<ul data-start="636" data-end="721">
+<li data-start="636" data-end="683" class="" style="">
+<p data-start="638" data-end="683" class=""><strong data-start="638" data-end="647">稳定性欠佳</strong>：在网络拥堵或被大规模封锁的时段，SSR容易出现连接不稳定、断线等情况。</p>
+</li>
+<li data-start="684" data-end="721" class="" style="">
+<p data-start="686" data-end="721" class=""><strong data-start="686" data-end="694">功能有限</strong>：缺少动态端口切换、多协议支持等高级特性，扩展性不足。</p>
+</li>
+</ul>
+<h3 data-start="723" data-end="739" class="">2. 什么是V2Ray？</h3>
+<p data-start="741" data-end="879" class="">V2Ray是一款模块化设计的网络代理工具平台，具有极高的灵活性和功能扩展能力。它支持多种代理协议（如VMESS、VLESS等），并能灵活配置多路径、多出口策略，适用于多样且复杂的网络环境。V2Ray不仅注重速度，更加重视连接稳定性和隐私安全，因而深受高级用户及技术爱好者青睐。</p>
+<h4 data-start="881" data-end="895" class="">V2Ray的优势：</h4>
+<ul data-start="896" data-end="1055">
+<li data-start="896" data-end="944" class="" style="">
+<p data-start="898" data-end="944" class=""><strong data-start="898" data-end="907">多协议支持</strong>：支持VMESS、VLESS、Shadowsocks等协议，满足不同需求。</p>
+</li>
+<li data-start="945" data-end="987" class="" style="">
+<p data-start="947" data-end="987" class=""><strong data-start="947" data-end="955">高度稳定</strong>：通过多路复用、动态路由等机制，适应各种网络环境，抗干扰能力强。</p>
+</li>
+<li data-start="988" data-end="1020" class="">
+<p data-start="990" data-end="1020" class=""><strong data-start="990" data-end="998">灵活配置</strong>：支持动态添加、删除节点，灵活度远超SSR。</p>
+</li>
+<li data-start="1021" data-end="1055" class="">
+<p data-start="1023" data-end="1055" class=""><strong data-start="1023" data-end="1032">安全性更强</strong>：多层加密及伪装手段，提升生存力和抗检测能力。</p>
+</li>
+</ul>
+<h4 data-start="1057" data-end="1071" class="">V2Ray的劣势：</h4>
+<ul data-start="1072" data-end="1147">
+<li data-start="1072" data-end="1104" class="">
+<p data-start="1074" data-end="1104" class=""><strong data-start="1074" data-end="1082">配置复杂</strong>：入门门槛较高，新手需要一定时间学习和调试。</p>
+</li>
+<li data-start="1105" data-end="1147" class="">
+<p data-start="1107" data-end="1147" class=""><strong data-start="1107" data-end="1119">资源消耗相对较高</strong>：对服务器硬件和带宽的要求更高，配置不当时可能影响性能。</p>
+</li>
+</ul>
+<hr data-start="1149" data-end="1152" class="">
+<h2 data-start="1154" data-end="1178" class="">二、速度对比：SSR和V2Ray的真实表现</h2>
+<p data-start="1180" data-end="1276" class="">关于“SSR快还是V2Ray”，最核心的争论集中于速度体验。网络速度的高低直接影响网页加载、视频播放、游戏体验等，成为选择代理工具的重要指标。实际上，速度并非单一因素决定，而是受多种条件影响：</p>
+<h3 data-start="1278" data-end="1297" class="">1. 节点质量和网络环境的影响</h3>
+<p data-start="1299" data-end="1381" class="">无论SSR还是V2Ray，节点的服务器性能、带宽大小及其所处的地理位置，是决定速度的关键因素。优质的节点可极大提升连接速度和稳定性，劣质节点则可能导致断线、延迟高。</p>
+<h3 data-start="1383" data-end="1398" class="">2. 网络拥堵及时间段</h3>
+<p data-start="1400" data-end="1485" class="">在网络使用高峰期，由于带宽争夺激烈，任何代理协议的速度都会受到影响。此时，V2Ray因其更优秀的多路复用和动态路由能力，通常能维持较好的连通性和稳定性，表现略优于SSR。</p>
+<h3 data-start="1487" data-end="1504" class="">3. 协议特性及带宽利用率</h3>
+<p data-start="1506" data-end="1594" class="">V2Ray采用的VMESS协议优化了带宽利用效率，特别是在高并发环境下能够有效减少数据包冗余和传输开销。SSR虽然支持流量混淆，但相对而言协议设计较为简单，带宽利用率稍逊一筹。</p>
+<h3 data-start="1596" data-end="1612" class="">4. 测试数据与实际体验</h3>
+<ul data-start="1614" data-end="1773">
+<li data-start="1614" data-end="1659" class="">
+<p data-start="1616" data-end="1659" class=""><strong data-start="1616" data-end="1626">无干扰环境下</strong>：多项测试显示，V2Ray的下载速度普遍稍高于SSR，且波动较小。</p>
+</li>
+<li data-start="1660" data-end="1714" class="">
+<p data-start="1662" data-end="1714" class=""><strong data-start="1662" data-end="1676">存在网络封锁或干扰时</strong>：两者速度差异缩小，V2Ray因更强抗封锁机制，断线率较低，整体体验更稳定。</p>
+</li>
+<li data-start="1715" data-end="1773" class="">
+<p data-start="1717" data-end="1773" class=""><strong data-start="1717" data-end="1725">延迟表现</strong>：SSR在某些节点和轻量级应用中表现更为敏捷，延迟较低；但长时间稳定运行方面仍被V2Ray超越。</p>
+</li>
+</ul>
+<hr data-start="1775" data-end="1778" class="">
+<h2 data-start="1780" data-end="1799" class="">三、稳定性与安全性：谁更胜一筹？</h2>
+<h3 data-start="1801" data-end="1813" class="">1. 稳定性分析</h3>
+<p data-start="1815" data-end="1916" class="">稳定的连接是科学上网体验的基石。SSR由于架构较为简单，面对复杂封锁时易遭遇断线和重连，而V2Ray则利用灵活的路由策略、动态端口切换以及多路复用技术，显著提升了抗干扰能力，使其在不稳定网络中表现更佳。</p>
+<h3 data-start="1918" data-end="1930" class="">2. 安全性考量</h3>
+<p data-start="1932" data-end="2015" class="">安全方面，V2Ray因支持多种高级加密和伪装机制，在防止流量被探测和封锁上有明显优势。SSR虽有流量混淆，但其加密协议在面对先进检测技术时仍显脆弱，安全保护层次较低。</p>
+<hr data-start="2017" data-end="2020" class="">
+<h2 data-start="2022" data-end="2036" class="">四、使用场景与用户建议</h2>
+<h3 data-start="2038" data-end="2053" class="">1. 适合SSR的用户</h3>
+<ul data-start="2055" data-end="2129">
+<li data-start="2055" data-end="2069" class="">
+<p data-start="2057" data-end="2069" class="">代理新手，配置需求简单。</p>
+</li>
+<li data-start="2070" data-end="2086" class="">
+<p data-start="2072" data-end="2086" class="">轻度或中度科学上网需求用户。</p>
+</li>
+<li data-start="2087" data-end="2108" class="">
+<p data-start="2089" data-end="2108" class="">网络环境较为宽松，无需高强度封锁抗性。</p>
+</li>
+<li data-start="2109" data-end="2129" class="">
+<p data-start="2111" data-end="2129" class="">希望快速搭建，且对高级功能需求不高。</p>
+</li>
+</ul>
+<h3 data-start="2131" data-end="2148" class="">2. 适合V2Ray的用户</h3>
+<ul data-start="2150" data-end="2227">
+<li data-start="2150" data-end="2170" class="">
+<p data-start="2152" data-end="2170" class="">技术较为熟悉，愿意投入时间学习配置。</p>
+</li>
+<li data-start="2171" data-end="2185" class="">
+<p data-start="2173" data-end="2185" class="">需求高安全性与隐私保护。</p>
+</li>
+<li data-start="2186" data-end="2203" class="">
+<p data-start="2188" data-end="2203" class="">网络环境复杂，需强抗封锁能力。</p>
+</li>
+<li data-start="2204" data-end="2227" class="">
+<p data-start="2206" data-end="2227" class="">追求稳定的高速连接，尤其是多人共享节点时。</p>
+</li>
+</ul>
+<hr data-start="2229" data-end="2232" class="">
+<h2 data-start="2234" data-end="2250" class="">五、常见问题解答（FAQ）</h2>
+<p data-start="2252" data-end="2340" class=""><strong data-start="2252" data-end="2277">Q1: SSR和V2Ray主要区别在哪里？</strong><br data-start="2277" data-end="2280">
+A1: SSR注重简易配置和基础流量混淆，适合入门；V2Ray提供丰富协议、多样化配置和更强的抗封锁能力，适合高级用户。</p>
+<p data-start="2342" data-end="2401" class=""><strong data-start="2342" data-end="2359">Q2: 哪个协议速度更快？</strong><br data-start="2359" data-end="2362">
+A2: 在理想网络条件下，V2Ray速度略优；但受网络环境影响，两者差距不大。</p>
+<p data-start="2403" data-end="2459" class=""><strong data-start="2403" data-end="2420">Q3: 如何提升代理速度？</strong><br data-start="2420" data-end="2423">
+A3: 选择优质节点、优化服务器配置、合理调整加密参数均有助于提高速度。</p>
+<p data-start="2461" data-end="2526" class=""><strong data-start="2461" data-end="2486">Q4: SSR和V2Ray哪个更难被封锁？</strong><br data-start="2486" data-end="2489">
+A4: V2Ray通过多重加密和流量伪装，难以被检测和封锁，生存能力更强。</p>
+<hr data-start="2528" data-end="2531" class="">
+<h2 data-start="2533" data-end="2542" class="">六、总结点评</h2>
+<p data-start="2544" data-end="2643" class="">在“SSR快还是V2Ray”的讨论中，速度并非唯一评判标准。两者各有千秋：SSR简单快捷，适合快速部署和轻度使用；而V2Ray功能强大、稳定性和抗封锁能力更胜一筹，适合需求更高的用户和复杂网络环境。</p>
+<p data-start="2645" data-end="2757" class="">网络速度的差异，更多取决于节点质量和网络环境，而非单纯协议本身的优劣。选择适合自己的代理工具，应结合个人需求、技术水平和使用环境综合判断。对于初学者，SSR是理想起点；而对技术进阶者，V2Ray则提供了更广阔的可能性和保障。</p>
+<p data-start="2759" data-end="2916" class=""><strong data-start="2759" data-end="2767">精彩点评</strong>：在这场速度与性能的较量中，SSR如同轻便灵巧的跑车，易于驾驭，迅速而直接；V2Ray则像一辆高性能的多功能越野车，配置复杂却功能全面，能应对多变且复杂的“地形”。最终，速度快慢只是其中一环，稳定与安全才是科学上网的核心。无论选择哪一方，都需不断优化与实践，才能在数字时代的网络战场中立于不败之地。</p>
+<hr data-start="2918" data-end="2921" class="">
+<p data-start="2923" data-end="2996" class="">以上内容为您提供了SSR和V2Ray的全面对比与分析，希望能帮助您在纷繁复杂的代理协议中，找到最适合自己的那一款，畅享更自由、更安全的互联网世界。</p>                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-115122.htm">深度解析Shadowrocket的最佳配置：提升网络体验的关键步骤</a></p>
+                                        <p>下一个：<a href="/news/article-115730.htm">解锁免费网络世界：全面指南教你获取与高效使用V2Ray免费流量</a></p>
+                                    </div>
+                                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-106105.htm" title="比亚迪与传统汽车的碰撞：电动车崛起的历史与未来">比亚迪与传统汽车的碰撞：电动车崛起的历史与未来</a></li>
+                        <li class="py-2"><a href="/news/article-114807.htm" title="B站iOS科学上网指南：突破限制，畅享无障碍观看体验">B站iOS科学上网指南：突破限制，畅享无障碍观看体验</a></li>
+                        <li class="py-2"><a href="/news/article-104617.htm" title="在谷歌云平台上搭建V2Ray的详细指南：保护你的网络隐私与安全">在谷歌云平台上搭建V2Ray的详细指南：保护你的网络隐私与安全</a></li>
+                        <li class="py-2"><a href="/news/article-100670.htm" title="电脑端科学上网：免费的解决方案与实用技巧">电脑端科学上网：免费的解决方案与实用技巧</a></li>
+                        <li class="py-2"><a href="/news/article-115122.htm" title="深度解析Shadowrocket的最佳配置：提升网络体验的关键步骤">深度解析Shadowrocket的最佳配置：提升网络体验的关键步骤</a></li>
+                        <li class="py-2"><a href="/news/article-111294.htm" title="通天塔全攻略：解锁自由、安全、高速互联网体验的科学上网神器">通天塔全攻略：解锁自由、安全、高速互联网体验的科学上网神器</a></li>
+                        <li class="py-2"><a href="/news/article-101276.htm" title="使用Opera手机科学上网的终极指南：突破网络限制，畅享全球互联网">使用Opera手机科学上网的终极指南：突破网络限制，畅享全球互联网</a></li>
+                        <li class="py-2"><a href="/news/article-113304.htm" title="如何在电脑端使用Shadowrocket：完整指南">如何在电脑端使用Shadowrocket：完整指南</a></li>
+                        <li class="py-2"><a href="/news/article-101277.htm" title="如何在Win10英文版上进行科学上网：完整指南与实用技巧">如何在Win10英文版上进行科学上网：完整指南与实用技巧</a></li>
+                        <li class="py-2"><a href="/news/article-112327.htm" title="爱与冲突的深度解析：如何在爱情中理解与解决冲突">爱与冲突的深度解析：如何在爱情中理解与解决冲突</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">24</span> <a href="/date/2025-05/" title="2025-05 归档">2025-05</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">24</span> <a href="/date/2025-04/" title="2025-04 归档">2025-04</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //w3l-content-2-->
+        <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <!-- copyright -->
+        <section class="w3l-copyright">
+            <div class="container">
+                <div class="row bottom-copies">
+                    <p class="col-lg-8 copy-footer-29">
+                                            <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                        专业VPN机场节点订阅官网 版权所有 Powered by WordPress
+                    </p>
+                    <div class="col-lg-4 footer-list-29">
+                        <ul class="d-flex text-lg-right">
+                            <li class="mx-lg-5 mx-md-4 mx-3"><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            &#10548;
+        </button>
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <!-- /move top -->
+    </footer>
+    <!--//footer-->
+    <!-- Template JavaScript -->
+    <script src="/assets/website/js/frontend/clashshare/jquery-3.5.1.min.js"></script>
+    <script src="/assets/website/js/frontend/clashshare/theme-change.js"></script>
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function() {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function() {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+    </script>
+    <!--//MENU-JS-->
+    <script src="/assets/website/js/frontend/clashshare/bootstrap.min.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
