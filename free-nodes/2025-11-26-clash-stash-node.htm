@@ -323,14 +323,14 @@ A：在多数国家地区，科学上网本身不违法，但用户需遵守本�
         Nekoray 支持配置策略组（Policy Group），用户可设置 URL 测试或周期检测机制，根据延迟自动选择最优节点。此功能能提升稳定性，尤其适合多线路机场订阅用户。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 节点分组功能有什么优势？</h5></div>
-    <div class="panel-body">
-        分组管理可按延迟、地区或用途分类节点，并结合策略组实现自动分流。用户可快速选择最优节点，提高访问速度和稳定性，方便管理大量节点并优化维护效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 如何在 Android 上导入配置？</h5></div>
     <div class="panel-body">
         打开 Nekobox，点击“导入配置”按钮，选择订阅链接或本地 JSON 文件。程序会解析后自动生成节点列表，用户可一键连接或测速筛选最优节点。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan-Go 的端口不可达怎么办？</h5></div>
+    <div class="panel-body">
+        检查服务器防火墙是否开放对应端口，同时确认客户端和服务器端端口一致。还可以尝试更换节点或端口，确保 TLS 证书有效以保证连接成功。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 节点延迟排序功能如何使用？</h5></div>
@@ -338,9 +338,9 @@ A：在多数国家地区，科学上网本身不违法，但用户需遵守本�
         Matsuri 会自动测试节点延迟，并根据结果排序。用户可以选择延迟最低的节点使用，从而优化访问速度和稳定性，尤其适合游戏、视频和海外网站加速。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess AEAD 加密如何确保数据传输安全？</h5></div>
+    <div class="panel-heading"><h5>VMess 使用 TLS+WebSocket 的好处是什么？</h5></div>
     <div class="panel-body">
-        AEAD 加密可防止数据篡改、重放攻击和流量特征泄露。在高封锁环境中保证节点可用，提升数据安全和连接稳定性，降低被检测风险，确保长期安全访问体验。<hr />    </div>
+        TLS+WebSocket 可伪装成正常 HTTPS 流量，增强抗封锁能力和隐蔽性。结合域名伪装和策略组使用，可在高封锁网络环境下保持安全、稳定和高速的网络访问体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 的测速功能如何优化节点选择？</h5></div>
@@ -348,14 +348,14 @@ A：在多数国家地区，科学上网本身不违法，但用户需遵守本�
         Shadowrocket 可测量节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点会优先使用，保证网页浏览、视频和游戏的速度和稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess 使用 TLS+WebSocket 的好处是什么？</h5></div>
+    <div class="panel-heading"><h5>Mihomo 节点分组功能有什么优势？</h5></div>
     <div class="panel-body">
-        TLS+WebSocket 可伪装成正常 HTTPS 流量，增强抗封锁能力和隐蔽性。结合域名伪装和策略组使用，可在高封锁网络环境下保持安全、稳定和高速的网络访问体验。<hr />    </div>
+        分组管理可按延迟、地区或用途分类节点，并结合策略组实现自动分流。用户可快速选择最优节点，提高访问速度和稳定性，方便管理大量节点并优化维护效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan-Go 的端口不可达怎么办？</h5></div>
+    <div class="panel-heading"><h5>VMess AEAD 加密如何确保数据传输安全？</h5></div>
     <div class="panel-body">
-        检查服务器防火墙是否开放对应端口，同时确认客户端和服务器端端口一致。还可以尝试更换节点或端口，确保 TLS 证书有效以保证连接成功。<hr />    </div>
+        AEAD 加密可防止数据篡改、重放攻击和流量特征泄露。在高封锁环境中保证节点可用，提升数据安全和连接稳定性，降低被检测风险，确保长期安全访问体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Surfboard 是否支持应用分流？</h5></div>
@@ -394,16 +394,16 @@ A：在多数国家地区，科学上网本身不违法，但用户需遵守本�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-20-clash-v2ray-ss-ssr.htm" title="VPN专业版 - 11月20日19.4M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月20日19.4M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-12-clash-verge-rev-node.htm" title="VPN专业版 - 10月12日22.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月12日22.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-13-clash-verge-rev-nodes.htm" title="VPN专业版 - 11月13日20.8M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月13日20.8M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-17-clash-meta-github.htm" title="VPN专业版 - 10月17日22M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月17日22M/S|免费V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-19-clash-stash-node.htm" title="VPN专业版 - 10月19日21.6M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月19日21.6M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-2-clash-verge-rev-node.htm" title="VPN专业版 - 11月2日20.6M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月2日20.6M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-11-free-node-subscribe.htm" title="VPN专业版 - 10月11日18.6M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月11日18.6M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-22-clash-verge-rev-node.htm" title="VPN专业版 - 10月22日19.9M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月22日19.9M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-10-clash-node-daily-updates.htm" title="VPN专业版 - 11月10日21.1M/S|免费V2ray节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月10日21.1M/S|免费V2ray节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-10-clash-verge-rev-windows.htm" title="VPN专业版 - 10月10日19M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 10月10日19M/S|免费Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-29-clash-verge-rev-node-github.htm" title="VPN专业版 - 11月29日20.3M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月29日20.3M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-17-clash-stash.htm" title="VPN专业版 - 11月17日22.3M/S|免费V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月17日22.3M/S|免费V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-3-clash-v2ray-ss-ssr.htm" title="VPN专业版 - 12月3日19.6M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 12月3日19.6M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-27-clash-verge-rev-nodes.htm" title="VPN专业版 - 11月27日22.1M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月27日22.1M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-11-clash-meta-github.htm" title="VPN专业版 - 11月11日21.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月11日21.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-21-clash-verge-rev-nodes.htm" title="VPN专业版 - 11月21日18.9M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月21日18.9M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-19-clash-verge-rev-windows.htm" title="VPN专业版 - 11月19日20.7M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月19日20.7M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-30-clash-verge-rev-nodes.htm" title="VPN专业版 - 11月30日22M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月30日22M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-28-clash-v2ray-ss-ssr.htm" title="VPN专业版 - 11月28日22.8M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 11月28日22.8M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-1-clash-verge-rev-node.htm" title="VPN专业版 - 12月1日21.8M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN专业版 - 12月1日21.8M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -415,10 +415,10 @@ A：在多数国家地区，科学上网本身不违法，但用户需遵守本�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">25</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">5</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                     </ul>
     </div>
